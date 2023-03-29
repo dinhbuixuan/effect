@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ư, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            animation: dinh2 5s;
+            animation-iteration-count: infinite ;
+            border-radius: 50%;
+
+        }
+            
+             @keyframes dinh2 {
+                0% {
+                    background-color: yellow;
+                }
+                50% {
+                    background-color: blueviolet;
+                    transform: scale(0.5);
+                
+                }
+                100% {
+                    background-color: chocolate;
+                }
+                
+            }
+         
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

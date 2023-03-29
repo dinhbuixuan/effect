@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            transition-duration: 1s;
+        }
+        .tong {
+            height: 450px;
+            width: 450px;
+            text-align: center;
+            border-radius: 15px;
+            border: 1px solid rgb(250, 246, 246);
+        }
+        .anh1 {
+            height: 350px;
+            width: 450px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+        }
+        .xemthem {
+            position: absolute;
+            font-size: 20px;
+            color: white;
+            left: 15%;
+            top: 20%;
+            opacity: 0;
+            padding: 5px 10px;
+            border: solid 1px white;
+            border-radius: 15px;
+        }
+        .tong:hover {
+            height: 450px;
+            width: 450px;
+            text-align: center;
+            border-radius: 15px;
+            border: 1px solid rgb(4, 4, 4);
+        }
+        .anh1:hover {
+            height: 350px;
+            width: 450px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            transform: scale(0.9);
+        }
+        .tong:hover .xemthem {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="tong">
+        <div class="the1">
+            <div>
+                <img class="anh1" src="cup.jpg" alt="">
+                Kiểm tra cúp</div>
+            </div>
+        <div>
+            <p class="xemthem"><a href="" style="text-decoration: none; color: white;"></a>Xem thêm</p>
+        </div>
+    </div>
+    
+</body>
+</html>
